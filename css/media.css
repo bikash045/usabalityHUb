@@ -1,0 +1,152 @@
+@media screen and (max-width:991px) {
+    .nav-toggle {
+        display: block;
+        margin-right: 20px;
+    }
+    .nav-box{
+        overflow: initial;
+    }
+
+    .nav-link {
+        position: absolute;
+        background-color: white;
+        left: -100%;
+        top: 130px;
+        width: 100%;
+        padding-block:20px ;
+        transition: 0.2s ease-in-out;
+
+    }
+
+    .nav-link.active{
+        left: 0;
+    }
+
+    .nav-link ul{
+        flex-direction: column;
+    }
+
+    .example-card {
+        width: 80%;
+    }
+
+    .feature-area {
+        justify-content: space-evenly;
+        gap: 30px;
+    }
+
+}
+
+/* @media screen  767 */
+
+@media screen and (max-width:767px) {
+    .header-section {
+        flex-direction: column-reverse;
+    }
+
+    .header-left {
+        max-width: 100vh;
+        align-items: center;
+    }
+
+    .h-button {
+        width: 100%;
+    }
+
+    .big-feature-container {
+        flex-direction: column;
+    }
+
+    .seconnd-big-features {
+        flex-direction: column-reverse;
+    }
+
+    .text-container {
+        width: 100%;
+
+    }
+
+    /* cta-section */
+    .cta-container {
+        flex-direction: column-reverse;
+
+    }
+
+    .cta-text {
+        width: 80%;
+        align-items: center;
+    }
+
+    /* footer section */
+    .footer-container {
+        flex-direction: column;
+        line-height: 1;
+
+    }
+
+    .footer-text {
+        margin: -62px;
+        align-items: center;
+    }
+
+    .footer-logo {
+        margin-top: 50px;
+    }
+}
+
+/* @media 480 px .......*/
+@media screen and (max-width:480px) {
+
+ /* feature-section */
+ 
+ .feature-card {
+    max-width: 100%;
+
+ }
+    /* big-feature-section */
+    .feature-img img {
+        width: 250px;
+    }
+
+    /* example section  */
+    .example-header h1 {
+        font-size: 30px;
+    }
+
+    .example-header a {
+        font-size: 15px;
+    }
+
+    /* cta-section */
+    .cta-text {
+        margin: 0;
+        width: 200px;
+    }
+
+    .text-box1 h1 {
+        font-size: 30px;
+    }
+
+    .cta-img img {
+        width: 300px;
+        margin-bottom: 30px;
+    }
+
+    .cta-btn {
+        padding-bottom: 20px;
+    }
+
+    /* cta-section2 */
+    .cta-container2 {
+        height: 400px;
+        padding: 5px;
+        margin-bottom: 72px;
+    }
+
+    /* sub-footer-section */
+
+    .sub-footer {
+        gap: 10px;
+    }
+
+}
